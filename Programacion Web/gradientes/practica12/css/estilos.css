@@ -1,0 +1,364 @@
+body{
+    background: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+.ajuste{
+    margin-left: 60px;
+}
+.contenedor{
+    display: grid;
+    grid-template: 
+    "library principal"
+}
+
+.navbar2 span{
+    line-height: 3;
+}
+
+
+.footer{
+    background: rgb(17, 17, 110);
+    color: white;
+    padding: 30px 10px;
+}
+
+.footer article{
+    display: inline-block;
+    margin: 0px 60px;
+    vertical-align: top;
+    margin-top: 40px;
+    font-size: 0.8em;
+}
+
+
+
+.imglinks{
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 30px ;
+    margin-top: 50px;
+}
+
+.starkF{
+    margin-left: 300px;
+    color: yellow;
+    font-size: 0.8em;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    background-color: beige ;
+    padding: 10px; 
+}
+
+
+.header img{
+    width: 50px;
+    margin-bottom: 8px;
+}
+
+.header span{
+    padding: 0px 20px;
+    margin-top: -10px;
+}
+
+.library{
+    padding: 30px;
+    margin-left: -15px;
+    grid-area: library;
+}
+
+
+
+.navbar2{
+    margin-left: 20px;
+}
+
+.btnBuscar{
+    margin-top: -20px;
+    height: 30px;
+    width: 230px;
+}
+
+.botonH{
+    background: blue;
+    color: white;
+    height: 30px;
+    border-radius: 7px;
+    border-color: blue;
+    margin-bottom: 10px;
+}
+
+.azul{
+    color: rgb(37, 0, 248);
+}
+
+.gris{
+    color: gray;
+    margin-bottom: -10px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.grande{
+    font-size: 3em;
+}
+
+.stark{
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(230, 248, 255);
+    width: 220px;
+}
+
+.stark span:first-of-type{
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.stark span:nth-of-type(2){
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+.stark span:nth-of-type(3){
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+.stark input{
+    margin-left: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    background: darkblue;
+    color: white;
+}
+
+.principal{
+    grid-area: principal;
+    display: grid;
+    grid-template: 
+    "Seccion01"
+    "Seccion02";
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: -40px;
+}
+
+.Seccion01{
+    display: grid;
+    grid-template:
+    "tituloSecc01 tituloSecc01 tituloSecc01"
+    "books publishing APLN"
+    "daisy languaje blogs";
+    gap: 20px;
+}
+
+.tamañoSecc02{
+    width:230px;
+}
+
+.books{
+    grid-area: books;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: gray;
+}
+
+.publishing{
+    grid-area: publishing;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: gray;
+
+}
+
+.APLN{
+    grid-area: APLN;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: gray;
+
+}
+
+.daisy{
+    grid-area: daisy;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: gray;
+
+}
+
+.languaje{
+    grid-area: languaje;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: gray;
+
+}
+
+.blogs{
+    grid-area: blogs;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: gray;
+
+}
+
+.tituloSecc01{
+    grid-area: tituloSecc01;
+}
+
+.tituloSecc02{
+    grid-area: tituloSecc02;
+}
+
+.disability{
+    grid-area: disability;
+    background: rgb(250, 250, 241);
+    border-radius: 10px;
+    height: 300px ;
+}
+
+.colorS{
+    grid-area: colorS;
+    background: rgb(249, 244, 253);
+    border-radius: 10px;
+    height: 300px ;
+
+
+}
+
+.social{
+    background: rgb(250, 250, 241);
+    grid-area: social;
+    border-radius: 10px;
+    height: 300px ;
+    
+}
+
+.Seccion02{
+    display: grid;
+    grid-template:  
+    "tituloSecc02 tituloSecc02 tituloSecc02"
+    "disability colorS social";
+    gap: 25px;
+    margin-bottom: 150px;
+    
+}
+
+.product{
+    grid-area: product;
+}
+
+.resourcesF{
+    grid-area: resources;
+}
+
+.help01{
+    grid-area: help01;
+}
+
+.company{
+    grid-area: company;
+}
+
+.hFooter{
+    grid-area: hFooter;
+}
+
+.imgFooter{
+    grid-area: imgFooter;
+}
+
+.img2Footer{
+    grid-area: img2Footer;
+}
+
+.starklab{
+    grid-area: starklab;
+}
+
+.imgsupport{
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    margin-top: 60px;
+}
+
+.img1f{
+    float: right;
+    width: 80px;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+.letragrande{
+    font-size: 2.8em;
+    color: rgb(5, 5, 70);
+}
+
+.tamañoFotosSecc0{
+    width: 50px;
+}
+
+
+.resources{
+    font-size: 0.9em;
+    color: rgb(59, 59, 182);
+}
+
+.textoArticles{
+    font-size: 1.1em;
+    color: rgb(2, 2, 94);
+}
+
+.view{
+    margin-left: 230px;
+    margin-right: -80px;
+    color: darkblue;
+    text-decoration: underline;
+
+}
+
+.view2{
+    margin-left: 230px;
+    margin-right: -40px;
+    color: darkblue;
+    text-decoration: underline;
+
+}
+
+.letranormal{
+    color: rgb(42, 42, 122);
+}
+
+.letraSeccion02{
+    font-size: 1.3em;
+    color: darkblue;
+}
+
+.letrastark{
+    color: rgb(7, 7, 95);
+}
+
+.letragris{
+    color: gray;
+}
+

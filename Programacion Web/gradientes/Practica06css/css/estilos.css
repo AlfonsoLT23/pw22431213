@@ -1,0 +1,122 @@
+body{
+    background: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+
+}
+
+.footer{
+    background: black;
+    color: lightgrey;
+    display: grid;
+    padding: 50px 70px;
+    grid-template-columns: repeat(5,minmax(140px,1fr));
+    grid-template-rows:repeat(2,minmax(140px,1fr)) ;
+    font-size: 0.8em;
+    grid-template-rows: auto auto;
+
+}
+
+.footer article:last-child {
+    grid-row: 2 ;
+    grid-column: 5;
+}
+
+
+
+.footer img{
+    width: 40px;
+    margin-left: -8px;
+}
+
+
+
+.header{
+    background: black;
+    padding: 15px;
+    vertical-align: middle;
+    color: white;
+}
+
+
+.header img{
+    margin-left: 50px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+.header input{
+    float: right;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.SignIn{
+    background:cornflowerblue;
+    border-color: cornflowerblue;
+    color: white;
+    height: 30px;
+    margin-right: 50px;
+    width: 70px;
+}
+
+.Submit{
+    background: black;
+    border-color: white;
+    color: white;
+    height: 30px;
+    margin-right: 10px;
+    width: 120px;
+}
+
+
+.navbar{
+    background: rgb(221, 206, 238);
+    font-size: 3em;
+    text-align: center;
+    padding: 70px;
+}
+
+.navbar input{
+    width: 500px;
+    height: 40px;
+}
+
+.principal{
+    display: grid;
+    padding: 80px;
+    gap: 70px;
+    grid-template:
+    "Branches Account"
+    "Projects Billing"
+    "Auth Abstract";
+}
+
+.principal article img{
+    vertical-align: top;
+    width: 60px;
+}
+
+.principal article span{
+    display: inline-block;
+
+}
+
+
+.negrita{
+    font-weight: bold;
+}
+
+.azul{
+    color: cornflowerblue;
+}
+
+.tamañof{
+    font-size: 1.5em;
+}
+
+.blanco{
+    color: white;
+}
