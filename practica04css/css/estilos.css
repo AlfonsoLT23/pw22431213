@@ -1,0 +1,116 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0px 33px;
+    padding: 8px 14px;
+    vertical-align: middle;
+    margin-left: -35px;
+    
+}
+
+header nav ul li img{
+    margin-left: 30px;
+}
+
+footer article:not(:first-of-type){
+    vertical-align: top;
+    margin: 0px 17px;
+    display: inline-block;
+}
+
+footer article :first-of-type{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+
+#first_bike{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: -40px;
+}
+#mundo{
+    width: 45px;
+}
+#mundo,#logo_rojo,#logo_bandera{
+    float: right;
+    margin: 10px 5px;
+    width: 30px;
+}
+
+
+#primerSeccion article{
+    border: dashed 2px;
+}
+
+#primerSeccion article span{
+    margin-left: 10px;
+}
+
+#segundaSeccion article{
+    font-size: 1em;
+    color: gray;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+#segundaSeccion article img{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+#video{
+    vertical-align: top;
+    width: 290px;
+}
+#years{
+    float: right;
+    margin-top: 355px;
+    margin-right: -130px;
+    width: 130px;
+    vertical-align: bottom;
+}
+
+#shop{
+    width: 160px;
+    margin-left: 770px;
+    margin-bottom: -30px;
+}
+#buy{
+    width: 50px;
+    margin: 0px 90px;
+}
+
+#bike{
+    float: right;
+    margin-top: -80px;
+    width: 380px;
+}
+
+.colorgris{
+    color: gray;
+}
+
+
+.negrita{
+    font-weight: bold;
+}
+
+.tamañogrande{
+    font-size: 4.5em;
+}
+
+.colorverde{
+    color: greenyellow;
+}
+
+
+
